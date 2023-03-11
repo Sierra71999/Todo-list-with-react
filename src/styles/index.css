@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+body {
+    margin-top: 100px;
+}
+h1 {
+    text-align:center;
+}
+ul li {
+    list-style: none;
+    border:1px solid gray;
+    padding: 5px;
+}
+input {
+    border: none;
+    width: 100%;
+}
+
+.showTrash {
+    display: block;
+    
+}
+.showTrash:hover {
+    display: none;
+}
